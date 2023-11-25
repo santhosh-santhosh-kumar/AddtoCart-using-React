@@ -43,21 +43,24 @@ section .cart{
 }
 .details{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 .details img{
-    max-width: 400px;
-    min-width: 250px;
-    height: 200px;
+    max-width: 100px;
+    min-width: 100px;
+    height: 100px;
     display: block;
     object-fit: cover;
     margin: 25px;
+    background: #333;
+
 }
 .details .box{
-    max-width: 300px;
-    min-width: 290px;
+    max-width: 200px;
+    min-width: 200px;
     margin: 25px;
 }
 .box .row{
@@ -71,6 +74,7 @@ section .cart{
 }
 .box .row span{
     color: crimson;
+    font-size: 20px;
 }
 .box .colors button{
     width: 30px;
@@ -90,4 +94,10 @@ section .cart{
     text-decoration: none;
     padding: 10px 25px;
     display: inline-block;
+}
+.payment{
+    margin-left: 400px;
+}
+.totalPayment{
+    margin-right: 300px;
 }
